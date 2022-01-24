@@ -1,0 +1,94 @@
+/*** HTML ELEMENTS ***/
+body{
+    background-color: #FEFEFE;
+  }
+
+  /*** CREDIT SCORE CARD***/
+  .credit-score-card{
+    margin: 5% auto;
+  }
+  .card-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+    text-align: center;
+    
+  }
+  .card-text{
+    
+    text-align: center;
+  }
+
+  /**** CREDIT FACTOR CARDS ****/
+  .credit-factor-card{
+    background-color:#F1F5FB;
+    height: 100%;
+    left: 2%; 
+    margin: 0;
+    position: relative;
+    width: 98%;
+  }
+  .credit-factor-color{
+    margin: 0.25rem;
+    padding: 0;
+  }
+  .credit-factor-text{
+    font-size: 0.75rem;
+    line-height: 0;
+  }
+
+  /*** CREDIT SCORE DISPLAY ***/
+  round-progress{
+    margin:auto;
+  }
+  .credit-score-arc{
+    margin: 2rem auto;
+    position: relative;
+  }
+  .credit-score{
+    font-size: 4.25rem;
+    font-weight: 700;
+    color: #3a3535;
+    left:50%;
+    line-height: 1;
+    position: absolute;
+    top:60%;
+    transform: translate(-50%,-50%);
+  }
+  .credit-rating{
+    bottom:5%;
+    color: #3a3535;
+    font-size: 1rem;
+    font-weight: 500;
+    left:50%;
+    line-height: 0.25;
+    position: absolute;
+    transform: translate(-50%,-50%);
+  }
+
+  /*** FEATURES ***/
+  .feature{
+   margin: auto;
+   padding: 1rem 3rem;
+  }
+  .feature-num{
+    background-color: #3DDB93;
+    border-radius: 100px;
+    color: #FFF;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    width: 50px;
+  }
+
+  .feature-title{
+    color: #3a3939;
+    font-weight: 700;
+    margin: 1.5rem auto;
+  }
+  .feature-text{
+      font-size: 2rem;
+      font-weight: 400;
+      line-height: 1.25;
+  }
